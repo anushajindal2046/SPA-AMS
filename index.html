@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cafe website</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+CU:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    height : 100vh;
+    background: url("https://i.pinimg.com/originals/23/a7/58/23a758c2fea8d4d1fc503efcdf9c90e1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-size:cover;
+}
+header{
+    position : fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    padding:20px;
+}
+
+header .navbar{
+    display : flex;
+    align-items: center;
+    max-width: 1200px;
+    margin:0 auto;
+    justify-content: space-between;
+}
+
+
+.navbar .menu-links{
+    display : flex;
+    gap:40px;
+    list-style: none;
+
+}
+
+.navbar a {
+    color:#fff;
+    text-decoration: none;
+    transition:0.2s ease;
+}
+
+.navbar a:hover {
+    color :  #15b6e2;
+}
+
+.hero-section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding : 0 20px;
+}
+
+.hero-section .content{
+    color:#fff;
+    max-width: 1200px;
+    width:100%;
+    margin: 0 auto;
+}
+
+.hero-section .content h1 {
+    font-size: 3rem;
+    max-width: 600px;
+    text-align: center;
+}
+
+
+
+.hero-section .content button {
+    background:#fff;
+    outline: none;
+    border : none;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 38px;
+    padding: 12px 30px;
+    border-radius: 6px;
+    cursor:pointer;
+    text-decoration: none;
+}
+
+button a{
+    text-decoration: none;
+    color:black;
+    
+}
+
+.hero-section .content button:hover {
+    color:#fff;
+    background-color: #15b6e2;
+}
+.footer {
+    background-color: black;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+
+
+
+</style>
+</head>
+<header>
+  <nav class = "navbar">
+    <a href = "#" class = "logo"> <img src = "logo.png" height="100px" width="100px"></a>
+    <ul class = "menu-links">
+      <li><a href = "index.html"> Home </a></li>
+      <li><a href = "login.html">Dashboard</a></li>            
+      <li><a href = "login.html">Login </a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class = "hero-section">
+  <div class = "content">
+    <h1>Welcome to Social Apex</h1>
+   
+    <button><a href = "login.html">Login</a></button>
+  </div>
+</section>
+<body>
+  
+</body>
+<footer class="footer">
+  <div class="container">
+      <p>&copy; 2024 Café Frothy Beans. All Rights Reserved.</p>
+      <p>701 Coffee cafe Street, Espresso latte City, CU 54321 | Email: info@cafefrothybeans.com | Phone: (123) 476-7680</p>
+  </div>
+</footer>
+</html>
